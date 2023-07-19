@@ -67,3 +67,19 @@ Otro inconveniente es que como el código no está compilado, entra en el navega
 
 Algo de ayuda aquí puede ser la ofuscación del código, que consiste en transformar nuestro script listo en una forma un poco menos legible (por ejemplo, generando nombres aleatorios cortos de variables y funciones, eliminando los signos de final de línea, etc.), pero el simple hecho es que si alguien quiere robar nuestro código JavaScript, es muy poco lo que podemos hacer para detenerlo.
 
+## ¿Es este el lenguaje de programación perfecto? - Ventajas
+Por otro lado, JavaScript tiene muchas ventajas sobre otros lenguajes de programación, y una de las más grandes es una comunidad muy activa y solidaria. Es fácil encontrar soluciones a problemas comunes y encontrar ayuda en general. Esto también significa que se desarrollan activamente herramientas que funcionan con JavaScript.
+
+Otra gran ventaja es una gran cantidad de frameworks y librerías listas para usarse que brindan la mayoría de las funcionalidades y características comúnmente requeridas. El lenguaje en sí es relativamente fácil de aprender y nos permite centrarnos en el trabajo en lugar de luchar con la sintaxis (es decir, la forma de construir las instrucciones que componen el código de nuestro programa).
+
+Además, JavaScript no requiere que compres herramientas costosas para trabajar con él, y las herramientas realmente buenas ya están integradas dentro de tu navegador web. Por último, pero no menos importante, los grandes jugadores como Google, Facebook y Mozilla apoyan activamente las herramientas de JavaScript y su desarrollo.
+
+Sin embargo, lo que es una ventaja para unos puede resultar una desventaja para otros. Un ejemplo de esto es el manejo dinámico de los tipos de datos en JavaScript. Consiste en que podemos almacenar datos de cualquier tipo en una variable (una variable es un contenedor en el que almacenamos los datos que utilizaremos).
+
+Por ejemplo, durante la ejecución del programa, podemos almacenar el número 10 en una variable, y en el siguiente paso usar la misma variable para almacenar la cadena "abc" (borrando el valor anterior automáticamente. No te preocupes si no entiendes en este momento, porque cubriremos todos estos términos más adelante).
+
+Por lo general, esto es muy conveniente, pero varias personas han encontrado que esta característica del lenguaje es una desventaja. En su opinión, facilita que un programador cometa errores en ciertas situaciones. Al agregar manejo estático de los tipos de datos, donde una variable solo puede contener un tipo de dato (por ejemplo, números) durante la ejecución del programa, se creo un nuevo lenguaje llamado <b>TypeScript</b>.
+
+Recuerda también que si aprendes a programar en un lenguaje, normalmente te será mucho más fácil aprender el siguiente, que por alguna razón puede ser mejor para resolver un problema en particular.
+
+Pero comencemos ahora con JavaScript, que, debido a su sintaxis flexible y simple, es perfecto para aprender como primer lenguaje.
