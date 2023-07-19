@@ -83,3 +83,12 @@ Por lo general, esto es muy conveniente, pero varias personas han encontrado que
 Recuerda también que si aprendes a programar en un lenguaje, normalmente te será mucho más fácil aprender el siguiente, que por alguna razón puede ser mejor para resolver un problema en particular.
 
 Pero comencemos ahora con JavaScript, que, debido a su sintaxis flexible y simple, es perfecto para aprender como primer lenguaje.
+
+# Preparémonos para trabajar
+Como mencionamos anteriormente, JavaScript se puede usar en varios entornos, aunque la mayoría de las veces será un navegador web o un servidor con un entorno node.js. Cada entorno impone una manera un poco diferente de usar este lenguaje, y aparecen algunos mecanismos o funciones propias del mismo. Sin embargo, la parte esencial del lenguaje, su núcleo, sigue siendo el mismo. En esta parte del curso, aprenderemos a programar utilizando esta parte central e invariable de JavaScript: cómo declarar variables, escribir funciones, instrucciones condicionales o bucles; todo esto será igualmente utilizable en cualquier entorno en el que decidamos utilizar este lenguaje.
+
+Programar en cualquier lenguaje no es algo fácil de aprender, y es posible que te sientas abrumado por tanta información nueva. Si eres persistente y te concentras, estarás escribiendo scripts simples en poco tiempo, y no hay otra forma de aprender a programar que escribir muchísimo código.
+
+Lo más importante es que no te rindas incluso cuando estés atascado: tómate un descanso, sal a caminar, vuelve a hacerlo con una mente fresca e inténtalo de nuevo. Al final, el ser constante te hace ganar la carrera.
+
+¡Ahora, vamos a empezar!
