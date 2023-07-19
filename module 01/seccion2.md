@@ -97,3 +97,42 @@ logo Notepad++
 Editor de código y texto gratuito y ligero. El programa es pequeño y rápido, admite docenas de lenguajes de programación y se puede ampliar con complementos (plugins). Puede ser viejo y feo, pero sigue siendo muy útil.
 
 Existen muchos otros editores de código, tanto gratuitos como de paga, y puedes usar el que prefieras. Muchos desarrolladores usan, entre otras cosas, editores de consola, incluido el legendario vim. Los editores de consola no se ejecutan en un entorno gráfico, sino en una consola de texto. Sin embargo, solo puedes buscar tales soluciones si las tareas que vas a hacer resultan ser demasiado simples y quieres hacer tu vida un poco más difícil.
+
+## Intérprete
+Ya hemos hablado un poco sobre el intérprete y su función. Funciona como un entorno de ejecución para nuestro programa. Comprueba si hemos cometido algún error formal, por ejemplo, cometer un error tipográfico en el nombre de una función u olvidar cerrar un paréntesis, y luego ejecuta el programa instrucción por instrucción.
+
+La elección del intérprete de JavaScript dependerá de la plataforma para la que escribamos nuestro software. Por ejemplo, si queremos escribir una aplicación sencilla del lado del servidor, es casi seguro que elegiremos el entorno node.js, que tendremos que instalar directamente en nuestro sistema operativo. En el caso del software del lado del cliente, nuestro intérprete será simplemente el navegador web que ya tienes instalado (porque, ¿de qué otra forma estarías leyendo este curso?).
+
+Nuestro curso trata sobre los fundamentos de JavaScript, es decir, aquellos elementos del lenguaje que serán igualmente útiles en soluciones móviles, del lado del cliente y del lado del servidor. Así podemos practicarlos en cualquier entorno, utilizando cualquier intérprete. La forma más fácil de hacer esto es limitarse a un navegador web.
+
+Como hemos dicho anteriormente, prácticamente todos los navegadores tienen motores (o intérpretes) JavaScript integrados, pero recomendamos encarecidamente usar Chrome de Google, o FireFox de Mozilla . Ambos son conocidos por su eficiencia y herramientas avanzadas integradas para desarrolladores web (ese eres tú). Están disponibles para Windows, macOS y Linux.
+
+## Depurador
+Los programas de computadora son bestias complicadas, miles o incluso millones de líneas de código (pero tranquilo, comenzaremos con solo unas pocas). Con tal complejidad y tamaño, es imposible producir código sin errores. Algunos tipos de errores, especialmente los lógicos (formalmente, el programa está escrito correctamente, pero probablemente inventamos la solución incorrecta al problema), solo se pueden encontrar mientras el programa se está ejecutando y, a menudo, solo en circunstancias especiales. Es realmente difícil averiguar qué sucede exactamente dentro de un programa que se ejecuta a la velocidad del rayo, y para esos problemas existen los depuradores.
+
+Un depurador es una herramienta que te permite alentar o incluso detener la ejecución de un programa, ejecutar instrucciones paso a paso, ver y analizar el estado del programa en un momento dado.
+
+Afortunadamente, en el momento en que decidimos usar el navegador web como nuestro entorno de arranque e intérprete de JavaScript, también obtuvimos un depurador. Todos los navegadores modernos están equipados con las herramientas de desarrollo. Durante el funcionamiento normal, son invisibles y tenemos que habilitarlos en las opciones del navegador (más sobre esto en el próximo capítulo).
+
+Dependiendo del navegador, allí encontraremos varias herramientas, pero seguramente habrá:
+
+El inspector, que nos permitirá, por ejemplo, analizar los elementos HTML individuales de un sitio web abierto.
+
+La consola de JavaScript, que en primer lugar muestra toda la información sobre los errores y, en segundo lugar, nos permite ejecutar comandos de JavaScript únicos en el contexto de la página actual.
+
+El depurador, que entre otras cosas, muestra los valores actuales de las variables y te permite pausar la ejecución del código en el lugar indicado y ejecutarlo paso a paso (es decir, ejecutar instrucciones del programa).
+
+
+¿Cómo habilitas las herramientas para desarrolladores? Desafortunadamente, no hay una respuesta única; depende del navegador que estés utilizando (a veces también de su versión) y del sistema operativo. Las interfaces del navegador cambian con bastante frecuencia, por lo que es mejor aprender los atajos correctos en lugar de buscar la opción correcta en el menú. Prueba las siguientes combinaciones de teclas:
+
+Sistemas operativos Windows y Linux, todos los navegadores comunes excepto Internet Explorer y Edge:
+ctrl + shift + I
+
+Sistema operativo Windows, Internet Explorer y Edge:
+F12
+
+Sistema operativo macOS, todos los navegadores comunes:
+Command + Option + I
+En el próximo capítulo, volveremos a este tema y aprenderemos algunas cosas más sobre estas útiles herramientas.
+
+En el próximo capítulo escribiremos nuestra primera pieza de código JavaScript. Lo probaremos en primer lugar en el entorno de ejecución integrado con nuestra plataforma de formación. También lo utilizaremos para comprobar cómo funciona nuestro entorno de desarrollo local. Por lo tanto, hay que asegúrarse de que las herramientas seleccionadas estén instaladas y de que puedas iniciarlas. Si aún no sabes qué elegir, te sugerimos usar el entorno local con Visual Studio Code y el Chrome (navegador web con intérprete de JavaScript y depurador).
