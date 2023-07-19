@@ -2,9 +2,9 @@
 # Configuración del entorno de programación
 
 Temas en esta sección:
-  1. [Herramientas de desarrollo](#Herramientasdedesarrollo)
+  1. [Herramientas de desarrollo](#herramientas-de-desarrollo)
   1. [Entorno de desarrollo en línea](#entorno-de-desarrollo-en-línea)
-  1. [Entorno de desarrollo local (editor de código, intérprete, depurador)](#Entorno)
+  1. [Entorno de desarrollo local (editor de código, intérprete, depurador)](#entorno-de-desarrollo-local)
 
 ## Herramientas de desarrollo
 Como cualquier otra tarea, la programación requiere las herramientas y el espacio de trabajo adecuados. El desarrollo de software, en la mayoría de los casos, requiere un editor de código y un compilador o intérprete de un lenguaje determinado. Este es el conjunto mínimo, que podemos ampliar según sea necesario con otras herramientas.
@@ -38,6 +38,30 @@ Durante el curso, utilizaremos un entorno en línea integrado con la plataforma 
 Sin embargo, no olvides que esta plataforma es una solución puramente didáctica y de prueba, y ciertamente no puede usarse como un entorno de desarrollo completo. Sin embargo, es ideal para nuestras necesidades, ya que en la mayoría de los casos podremos olvidarnos del entorno web de los programas escritos en JavaScript, incluidos los elementos HTML. Esto nos permitirá centrarnos únicamente en aprender el lenguaje JavaScript en sí.
 
 Sin embargo, se recomienda encarecidamente que también configures tu propio entorno de desarrollo local. No es difícil, como descubrirás de inmediato, y te permitirá realizar algunos ejercicios de una forma mucho más parecida a cómo lo harías durante el desarrollo normal de software. Si, durante el curso, alguno de los ejercicios debe realizarse en un entorno de este tipo, lo indicaremos claramente.
+
+## Entorno de desarrollo local
+Como escribimos anteriormente, los requisitos de JavaScript para el entorno de desarrollo son muy modestos. En la mayoría de los casos, especialmente al comienzo del desarrollo, solo tres elementos son suficientes: un editor de código, un intérprete (es decir, un entorno de arranque) y un depurador.
+
+Dependiendo del nivel de sofisticación, la complejidad del proyecto escrito o el entorno para el que escribimos nuestros programas (del lado del cliente, o del lado del servidor), es posible que también se necesiten otras herramientas.
+
+Existirán, entre otras:
+
+Administradores de paquetes: que permiten la gestión de librerías (que contienen soluciones listas para usar, que podemos emplear en nuestros programas) o componentes del entorno de desarrollo (por ejemplo: npm o yarn).
+
+Ejecutores de tareas y empaquetadores de módulos: utilizados, en términos simples, para automatizar el proceso de desarrollo de software y unir el código resultante de muchos archivos y librerías (por ejemplo Grunt o Webpack).
+
+Frameworks de pruebas: permiten realizar pruebas automáticas para la corrección de nuestro programa, al buscar posibles errores (por ejemplo Mocha, Jasmine, o Jest).
+
+Analizadores de seguridad: como puede adivinar, se usan para controlar la seguridad de nuestra solución (por ejemplo, Snyk, RetireJS u OWASP Dependency Check).
+
+
+La apertura de los entornos de desarrollo web es tanto una bendición como una maldición. Podemos elegir entre cientos de componentes, a partir de los cuales podemos crear el entorno más cómodo para nosotros.
+
+Sin embargo, su cantidad, más los cambios dinámicos de herramientas particulares o incluso las tendencias entre los programadores hacen que sea difícil mantenerse al día con todo lo que sucede dentro de estos entornos.
+
+Pero para nosotros, este es un problema para el futuro lejano.
+
+Por ahora, necesitamos el trío mínimo: un editor de código, intérprete y depurador
 
  
 
