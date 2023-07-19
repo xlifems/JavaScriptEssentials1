@@ -46,13 +46,13 @@ Dependiendo del nivel de sofisticación, la complejidad del proyecto escrito o e
 
 Existirán, entre otras:
 
-Administradores de paquetes: que permiten la gestión de librerías (que contienen soluciones listas para usar, que podemos emplear en nuestros programas) o componentes del entorno de desarrollo (por ejemplo: npm o yarn).
+**Administradores de paquetes:** que permiten la gestión de librerías (que contienen soluciones listas para usar, que podemos emplear en nuestros programas) o componentes del entorno de desarrollo (por ejemplo: npm o yarn).
 
-Ejecutores de tareas y empaquetadores de módulos: utilizados, en términos simples, para automatizar el proceso de desarrollo de software y unir el código resultante de muchos archivos y librerías (por ejemplo Grunt o Webpack).
+**Ejecutores de tareas y empaquetadores de módulos:** utilizados, en términos simples, para automatizar el proceso de desarrollo de software y unir el código resultante de muchos archivos y librerías (por ejemplo Grunt o Webpack).
 
-Frameworks de pruebas: permiten realizar pruebas automáticas para la corrección de nuestro programa, al buscar posibles errores (por ejemplo Mocha, Jasmine, o Jest).
+**Frameworks de pruebas:** permiten realizar pruebas automáticas para la corrección de nuestro programa, al buscar posibles errores (por ejemplo Mocha, Jasmine, o Jest).
 
-Analizadores de seguridad: como puede adivinar, se usan para controlar la seguridad de nuestra solución (por ejemplo, Snyk, RetireJS u OWASP Dependency Check).
+**Analizadores de seguridad:** como puede adivinar, se usan para controlar la seguridad de nuestra solución (por ejemplo, Snyk, RetireJS u OWASP Dependency Check).
 
 
 La apertura de los entornos de desarrollo web es tanto una bendición como una maldición. Podemos elegir entre cientos de componentes, a partir de los cuales podemos crear el entorno más cómodo para nosotros.
