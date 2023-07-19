@@ -116,12 +116,11 @@ Afortunadamente, en el momento en que decidimos usar el navegador web como nuest
 
 Dependiendo del navegador, allí encontraremos varias herramientas, pero seguramente habrá:
 
-El inspector, que nos permitirá, por ejemplo, analizar los elementos HTML individuales de un sitio web abierto.
+**El inspector**, que nos permitirá, por ejemplo, analizar los elementos HTML individuales de un sitio web abierto.
 
-La consola de JavaScript, que en primer lugar muestra toda la información sobre los errores y, en segundo lugar, nos permite ejecutar comandos de JavaScript únicos en el contexto de la página actual.
+**La consola de JavaScript**, que en primer lugar muestra toda la información sobre los errores y, en segundo lugar, nos permite ejecutar comandos de JavaScript únicos en el contexto de la página actual.
 
-El depurador, que entre otras cosas, muestra los valores actuales de las variables y te permite pausar la ejecución del código en el lugar indicado y ejecutarlo paso a paso (es decir, ejecutar instrucciones del programa).
-
+**El depurador**, que entre otras cosas, muestra los valores actuales de las variables y te permite pausar la ejecución del código en el lugar indicado y ejecutarlo paso a paso (es decir, ejecutar instrucciones del programa).
 
 ¿Cómo habilitas las herramientas para desarrolladores? Desafortunadamente, no hay una respuesta única; depende del navegador que estés utilizando (a veces también de su versión) y del sistema operativo. Las interfaces del navegador cambian con bastante frecuencia, por lo que es mejor aprender los atajos correctos en lugar de buscar la opción correcta en el menú. Prueba las siguientes combinaciones de teclas:
 
@@ -133,6 +132,7 @@ F12
 
 Sistema operativo macOS, todos los navegadores comunes:
 Command + Option + I
+
 En el próximo capítulo, volveremos a este tema y aprenderemos algunas cosas más sobre estas útiles herramientas.
 
 En el próximo capítulo escribiremos nuestra primera pieza de código JavaScript. Lo probaremos en primer lugar en el entorno de ejecución integrado con nuestra plataforma de formación. También lo utilizaremos para comprobar cómo funciona nuestro entorno de desarrollo local. Por lo tanto, hay que asegúrarse de que las herramientas seleccionadas estén instaladas y de que puedas iniciarlas. Si aún no sabes qué elegir, te sugerimos usar el entorno local con Visual Studio Code y el Chrome (navegador web con intérprete de JavaScript y depurador).
