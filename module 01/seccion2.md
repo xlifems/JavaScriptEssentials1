@@ -61,7 +61,7 @@ Sin embargo, su cantidad, más los cambios dinámicos de herramientas particular
 
 Pero para nosotros, este es un problema para el futuro lejano.
 
-Por ahora, necesitamos el trío mínimo: un editor de código, intérprete y depurador
+Por ahora, necesitamos el trío mínimo: **un editor de código, intérprete y depurador**
 
  
 
