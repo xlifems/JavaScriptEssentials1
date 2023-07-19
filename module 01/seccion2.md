@@ -3,7 +3,7 @@
 
 Temas en esta sección:
   1. [Herramientas de desarrollo](#Herramientasdedesarrollo)
-  1. [Entorno de desarrollo en línea](#Entornodedesarrolloenlínea)
+  1. [de](#de)
   1. [Entorno de desarrollo local (editor de código, intérprete, depurador)](#Entorno)
 
 ## Herramientas de desarrollo
@@ -21,7 +21,7 @@ En este momento, existen dos opciones. Puedes instalar todas las herramientas ne
 
 Todo el código que verás en este curso se probó en entornos locales y en línea, por lo que ambas opciones son válidas. Finalmente, podemos pasar a la elección de las herramientas.
 
-## Entorno de desarrollo en línea
+## de
 Los entornos en línea, son sitios que actúan como un editor sencillo y un entorno de ejecución. Todos ellos tienen conjuntos similares de características. Tienen diferentes interfaces de usuario, pero en principio se comportan de manera similar. Te permiten escribir código, ejecutarlo con fines de prueba y, en la mayoría de los casos, compartirlo con otros usuarios.
 
 En el caso de JavaScript, donde la preparación de un entorno local que funcione se reduce a instalar un editor de código y ejecutar el navegador, no son tan importantes como los entornos de desarrollo regulares. Se utilizan principalmente como plataformas de prueba y capacitación, o lugares para publicar soluciones de muestra a problemas de programación.
