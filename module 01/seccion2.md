@@ -21,5 +21,23 @@ En este momento, existen dos opciones. Puedes instalar todas las herramientas ne
 
 Todo el código que verás en este curso se probó en entornos locales y en línea, por lo que ambas opciones son válidas. Finalmente, podemos pasar a la elección de las herramientas.
 
+## Entorno de desarrollo en línea
+Los entornos en línea, son sitios que actúan como un editor sencillo y un entorno de ejecución. Todos ellos tienen conjuntos similares de características. Tienen diferentes interfaces de usuario, pero en principio se comportan de manera similar. Te permiten escribir código, ejecutarlo con fines de prueba y, en la mayoría de los casos, compartirlo con otros usuarios.
+
+En el caso de JavaScript, donde la preparación de un entorno local que funcione se reduce a instalar un editor de código y ejecutar el navegador, no son tan importantes como los entornos de desarrollo regulares. Se utilizan principalmente como plataformas de prueba y capacitación, o lugares para publicar soluciones de muestra a problemas de programación.
+
+Entre los programadores de JavaScript, los más populares son los siguientes:
+
+1. JSFiddle
+2. CodePen
+3. JsBin
+4. Plunker
+
+Durante el curso, utilizaremos un entorno en línea integrado con la plataforma de capacitación. OpenEDG proporciona un entorno simple para escribir y ejecutar código en varios lenguajes de programación, incluido JavaScript. Gracias a eso, podrás practicar todo lo que hablamos de inmediato.
+
+Sin embargo, no olvides que esta plataforma es una solución puramente didáctica y de prueba, y ciertamente no puede usarse como un entorno de desarrollo completo. Sin embargo, es ideal para nuestras necesidades, ya que en la mayoría de los casos podremos olvidarnos del entorno web de los programas escritos en JavaScript, incluidos los elementos HTML. Esto nos permitirá centrarnos únicamente en aprender el lenguaje JavaScript en sí.
+
+Sin embargo, se recomienda encarecidamente que también configures tu propio entorno de desarrollo local. No es difícil, como descubrirás de inmediato, y te permitirá realizar algunos ejercicios de una forma mucho más parecida a cómo lo harías durante el desarrollo normal de software. Si, durante el curso, alguno de los ejercicios debe realizarse en un entorno de este tipo, lo indicaremos claramente.
+
  
 
