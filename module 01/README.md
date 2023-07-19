@@ -4,7 +4,7 @@
 
 Temas en la sección:
 
-  1. [¿Cómo comunicarse con la computadora?](#¿Cómo comunicarse con la computadora?)
+  1. [¿Cómo comunicarse con la computadora?](#type)
   1. [¿Qué es JS?](#references)
   1. [JS – Ventajas y Limitaciones](#objects)
   1. [¿Dónde se usa JS hoy?](#arrays) 
