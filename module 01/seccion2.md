@@ -63,5 +63,37 @@ Pero para nosotros, este es un problema para el futuro lejano.
 
 Por ahora, necesitamos el trío mínimo: **un editor de código, intérprete y depurador**
 
- 
+## Editor de Código
+El código de casi todos los lenguajes de programación se compone de alguna forma de texto. Entonces, para escribir el código, necesitamos un editor de texto. Pero debe ser una aplicación que escriba texto sin formato (no puede ser un editor de texto enriquecido, como MS Word). En otras palabras, solo un bloc de notas simple que pueda escribir archivos .txt es suficiente para escribir código, aunque es mucho más fácil si se usa un editor de código dedicado. El mercado está repleto de editores de código profesionales, tanto gratuitos como de paga. Algunos de ellos son universales, mientras que otros son exclusivos de lenguajes específicos. La principal ventaja de usar un editor de código dedicado es el resaltado de sintaxis, el autocompletado de texto y la verificación de errores. Esto mejora la eficiencia del trabajo y la comprensión del código, y reduce la cantidad de errores y errores tipográficos. Hay muchos buenos editores de código, pero puede ser realmente difícil seleccionar uno que funcione bien para ti.
 
+Aquí se mencionan algunos populares:
+
+**Visual Studio Code**
+[Windows, macOS, Linux]
+
+logo visual studio
+
+Potente editor de código gratuito para uso personal y comercial. Se ha convertido rápidamente en uno de los favoritos cuando se trata de desarrollo web. Tiene funciones integradas como un depurador de JavaScript y herramientas para optimizar los proyectos web. También es altamente personalizable a través del sistema de extensiones (existen muchas adiciones especialmente para el lenguaje JavaScript).
+
+**WebStorm**
+[Windows, macOS, Linux]
+
+logo webstorm
+
+Un entorno de desarrollo comercial popular, en el que el editor de código es solo uno de los elementos más pequeños en un gran conjunto de herramientas que mejoran el desarrollo de código (por ejemplo, soporta realizar pruebas al código). Destinado para proyectos grandes, puede resultar demasiado pesado y complejo para programas pequeños. Aunque está destinado a un uso comercial, es posible obtener una licencia educativa gratuita.
+
+**Sublime Text**
+[Windows, macOS, Linux]
+
+logo Sublime Text
+
+Editor de código rápido y fácil de usar con muchas funciones avanzadas, como edición de varias líneas, búsqueda rápida y otras. Hay una versión de prueba disponible, pero para uso a largo plazo, se debe comprar una licencia ya sea para un uso privado y/o comercial.
+
+**Notepad++**
+[Windows]
+
+logo Notepad++
+
+Editor de código y texto gratuito y ligero. El programa es pequeño y rápido, admite docenas de lenguajes de programación y se puede ampliar con complementos (plugins). Puede ser viejo y feo, pero sigue siendo muy útil.
+
+Existen muchos otros editores de código, tanto gratuitos como de paga, y puedes usar el que prefieras. Muchos desarrolladores usan, entre otras cosas, editores de consola, incluido el legendario vim. Los editores de consola no se ejecutan en un entorno gráfico, sino en una consola de texto. Sin embargo, solo puedes buscar tales soluciones si las tareas que vas a hacer resultan ser demasiado simples y quieres hacer tu vida un poco más difícil.
