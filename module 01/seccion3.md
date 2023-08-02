@@ -31,8 +31,41 @@ Podemos tratar a console.log como una función*. De hecho, la función es solo u
 
 *Este tipo de función, perteneciente a un objeto, generalmente se denomina método. Pero una vez más, por el momento, para simplificar ciertas cosas, supongamos que se trata de una función ordinaria: no nos molestará en absoluto (aprenderemos sobre los objetos mucho más adelante).
 
-Una *función* es un fragmento de código que te permite realizar una tarea específica (en nuestro caso, mostrar algo en la consola). Las funciones a menudo toman argumentos, en otras palabras, datos que usarán durante la operación. En JavaScript, ejecutamos una función llamándola, y la llamamos escribiendo su nombre seguido de un par de paréntesis, donde se proporcionan los argumentos (si la función no necesita argumentos, los paréntesis se dejan vacíos). En nuestro ejemplo, el argumento es el texto que queremos mostrar. Toma en cuenta que para indicar que "¡Hola, Mundo!" es el texto, lo ponemos entre comillas.
+Una **función** es un fragmento de código que te permite realizar una tarea específica (en nuestro caso, mostrar algo en la consola). Las funciones a menudo toman argumentos, en otras palabras, datos que usarán durante la operación. En JavaScript, ejecutamos una función llamándola, y la llamamos escribiendo su nombre seguido de un par de paréntesis, donde se proporcionan los argumentos (si la función no necesita argumentos, los paréntesis se dejan vacíos). En nuestro ejemplo, el argumento es el texto que queremos mostrar. Toma en cuenta que para indicar que "¡Hola, Mundo!" es el texto, lo ponemos entre comillas.
 
 Para que el intérprete sepa dónde termina el comando, colocamos un punto y coma al final de la llamada a la función. En este caso, el intérprete se las arreglaría sin esa ayuda, pero es una buena costumbre terminar cada comando con un punto y coma, para que no lo olvides cuando realmente lo necesites.
 
 Ya sabemos qué escribir, y la única pregunta ahora es, ¿dónde hacerlo?
+
+# Entorno de desarrollo local
+El JavaScript del lado del cliente es un lenguaje de la web y solo existe en el ecosistema web. En esta configuración, JavaScript no puede existir por sí mismo. El código JavaScript debe estar incrustado en un documento HTML. Cuando usamos el entorno en línea para ejecutar nuestro programa, se nos ocultaron ciertos aspectos. Esta vez tendremos que mirarlos más de cerca.
+
+## Unas palabras sobre HTML
+**HyperText Markup Language**, o **HTML**, es un conjunto de etiquetas utilizadas para describir la estructura de un sitio web. Nos permite dar a una página el formato de un documento que contiene secciones, encabezados, párrafos, listas y similares. HTML definitivamente está más allá del alcance del curso actual, por lo que presentaremos solo información básica al respecto, lo suficiente para que comprendas dónde y cómo podemos ejecutar el código JavaScript asociado con una página determinada.
+
+Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es <p> y la etiqueta para el encabezado de primer grado (el más grande) es <h1>. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
+
+<p>un párrafo ordinario</p>
+
+A menudo, las etiquetas pueden (y a veces deben) colocarse dentro del rango de otras etiquetas. Por ejemplo, nuestro párrafo debe colocarse dentro de la etiqueta <body>, que separa la parte principal de nuestro documento.
+
+<body>
+<p>un párrafo ordinario</p>
+</body>
+
+
+Documento HTML
+Intentemos crear un HTML sencillo que defina una página vacía.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Empty Page</title>
+  </head>
+  <body>
+  </body>
+</html>
+
+Comencemos con la declaración <!DOCTYPE html>. Esta no es una etiqueta típica, ya que se utiliza para informar al navegador que todo el documento se ha preparado de acuerdo con HTML5. La descripción del documento en si comienza con la etiqueta <html>, la cual junto con la etiqueta </html> establece los límites del documento. Cualquier otra etiqueta debe estar dentro de estas. Si una etiqueta dada tiene otro contenido, habrá una etiqueta de cierre correspondiente, formando una especie de contenedor.
+
+La siguiente etiqueta, <head>, contiene información adicional sobre el documento, que también debe colocarse en etiquetas. La más básica es la etiqueta <title>, que establece el título de la página mayormente visible en la barra de título del navegador. Después de <head> esta el elemento <body>, y allí se debe colocar el contenido visible de la página web (por ejemplo, nuestro párrafo).
