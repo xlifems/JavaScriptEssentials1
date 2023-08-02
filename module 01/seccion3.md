@@ -43,7 +43,7 @@ El JavaScript del lado del cliente es un lenguaje de la web y solo existe en el 
 ## Unas palabras sobre HTML
 **HyperText Markup Language**, o **HTML**, es un conjunto de etiquetas utilizadas para describir la estructura de un sitio web. Nos permite dar a una página el formato de un documento que contiene secciones, encabezados, párrafos, listas y similares. HTML definitivamente está más allá del alcance del curso actual, por lo que presentaremos solo información básica al respecto, lo suficiente para que comprendas dónde y cómo podemos ejecutar el código JavaScript asociado con una página determinada.
 
-Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es <p> y la etiqueta para el encabezado de primer grado (el más grande) es <h1>. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
+Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es ``<p>`` y la etiqueta para el encabezado de primer grado (el más grande) es ``<h1>``. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
 
 ```<p>un párrafo ordinario</p>```
 
