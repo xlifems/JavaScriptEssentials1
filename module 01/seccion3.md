@@ -72,3 +72,20 @@ Intentemos crear un HTML sencillo que defina una página vacía.
 Comencemos con la declaración ```<!DOCTYPE html>```. Esta no es una etiqueta típica, ya que se utiliza para informar al navegador que todo el documento se ha preparado de acuerdo con HTML5. La descripción del documento en si comienza con la etiqueta ```<html>```, la cual junto con la etiqueta ```</html>``` establece los límites del documento. Cualquier otra etiqueta debe estar dentro de estas. Si una etiqueta dada tiene otro contenido, habrá una etiqueta de cierre correspondiente, formando una especie de contenedor.
 
 La siguiente etiqueta, ```<head>```, contiene información adicional sobre el documento, que también debe colocarse en etiquetas. La más básica es la etiqueta ```<title>```, que establece el título de la página mayormente visible en la barra de título del navegador. Después de <head> esta el elemento ```<body>```, y allí se debe colocar el contenido visible de la página web (por ejemplo, nuestro párrafo).
+
+# La etiqueta ```<script>```
+El código JavaScript que ejecutará el navegador en la página debe adjuntarse al HTML utilizando la etiqueta ```<script>```, y existen dos formas de hacerlo. El código se puede incrustar directamente dentro de las etiquetas ```<script>``` y ```</script>```, pero esto solo se recomienda cuando el código es corto. Otro enfoque es utilizar el atributo "src" para apuntar a un archivo separado que contiene el código JavaScript. Esto es especialmente cierto cuando se va a usar el mismo código en varias páginas, porque repetir exactamente el mismo código muchas veces es una mala práctica, ya que cualquier cambio debe aplicarse a todos los archivos; y además, aumenta artificialmente el tamaño de la página. La extensión del archivo JavaScript es .js.
+
+HTML es leído por el navegador línea por línea, y las etiquetas se ejecutan justo en el momento en que el navegador analiza la etiqueta ```<script>``` (analizar en lenguajes de programación significa un análisis formal del código por parte de una máquina para comprender su estructura). Generalmente las etiquetas <script> se insertan en el encabezado de la página entre las etiquetas ```<head>``` y ```</head>```, y podemos insertar muchos de ellos en un archivo, por ejemplo, para incluir código JavaScript de diferentes archivos. Este comportamiento se puede cambiar para scripts externos señalados por el atributo "src" usando los atributos "defer" o "async".
+
+defer: significa que el script debe ejecutarse después de cargar toda la página.
+async: significa que el script se ejecutará inmediatamente, pero en paralelo al análisis del resto de la página.
+
+# ... y un poco acerca de CSS
+CSS, o Cascading Style Sheets, es un lenguaje utilizado junto con HTML para describir la apariencia de una página y sus elementos. En pocas palabras, HTML describe la estructura de un documento, mientras que CSS describe su presentación.
+
+Por ejemplo, en HTML, podemos describir una página que tiene un encabezado, dos párrafos y una tabla de datos.
+
+En CSS, podemos definir qué fuente se usará en toda la página, qué color tendrá el fondo o si el cursor del mouse, cuando se mueve sobre la tabla, debe cambiar de forma.
+
+Entonces podemos tratar CSS como una especie de configuración de la capa visual de la página. Así, la mayoría de las veces el sitio web se construirá sobre la base de un archivo HTML (es decir, una descripción de la estructura), código JavaScript que nos permite agregar, por ejemplo, algunos mecanismos de interacción y un archivo CSS (que describe la presentación de la página). Sin embargo, lo importante es que no habrá página sin un archivo HTML, pero podemos crear fácilmente una página sin usar archivos CSS. La descripción de CSS en sí está fuera del alcance del curso actual y la mencionamos solo por orden.
