@@ -45,13 +45,14 @@ El JavaScript del lado del cliente es un lenguaje de la web y solo existe en el 
 
 Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es <p> y la etiqueta para el encabezado de primer grado (el más grande) es <h1>. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
 
-<p>un párrafo ordinario</p>
+```<p>un párrafo ordinario</p>```
 
 A menudo, las etiquetas pueden (y a veces deben) colocarse dentro del rango de otras etiquetas. Por ejemplo, nuestro párrafo debe colocarse dentro de la etiqueta <body>, que separa la parte principal de nuestro documento.
-
+```htmnl
 <body>
 <p>un párrafo ordinario</p>
 </body>
+```
 
 
 Documento HTML
