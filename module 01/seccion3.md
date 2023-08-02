@@ -43,7 +43,7 @@ El JavaScript del lado del cliente es un lenguaje de la web y solo existe en el 
 ## Unas palabras sobre HTML
 **HyperText Markup Language**, o **HTML**, es un conjunto de etiquetas utilizadas para describir la estructura de un sitio web. Nos permite dar a una página el formato de un documento que contiene secciones, encabezados, párrafos, listas y similares. HTML definitivamente está más allá del alcance del curso actual, por lo que presentaremos solo información básica al respecto, lo suficiente para que comprendas dónde y cómo podemos ejecutar el código JavaScript asociado con una página determinada.
 
-Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es ``<p>`` y la etiqueta para el encabezado de primer grado (el más grande) es ``<h1>``. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
+Los tipos de etiquetas están predefinidos. Por ejemplo, la etiqueta que especifica un párrafo es ```<p>``` y la etiqueta para el encabezado de primer grado (el más grande) es ```<h1>```. El nombre de la etiqueta debe colocarse entre corchetes. Las etiquetas se suelen utilizar en pares, limitando un área determinada del documento (tenemos una etiqueta de apertura y otra de cierre). La etiqueta de cierre es diferente de la etiqueta de apertura porque aparece una barra antes del nombre. Por ejemplo, un párrafo puede verse así:
 
 ```<p>un párrafo ordinario</p>```
 
@@ -58,6 +58,7 @@ A menudo, las etiquetas pueden (y a veces deben) colocarse dentro del rango de o
 Documento HTML
 Intentemos crear un HTML sencillo que defina una página vacía.
 
+```htmnl
 <!DOCTYPE html>
 <html>
   <head>
@@ -66,7 +67,8 @@ Intentemos crear un HTML sencillo que defina una página vacía.
   <body>
   </body>
 </html>
+```
 
 Comencemos con la declaración <!DOCTYPE html>. Esta no es una etiqueta típica, ya que se utiliza para informar al navegador que todo el documento se ha preparado de acuerdo con HTML5. La descripción del documento en si comienza con la etiqueta <html>, la cual junto con la etiqueta </html> establece los límites del documento. Cualquier otra etiqueta debe estar dentro de estas. Si una etiqueta dada tiene otro contenido, habrá una etiqueta de cierre correspondiente, formando una especie de contenedor.
 
-La siguiente etiqueta, <head>, contiene información adicional sobre el documento, que también debe colocarse en etiquetas. La más básica es la etiqueta <title>, que establece el título de la página mayormente visible en la barra de título del navegador. Después de <head> esta el elemento <body>, y allí se debe colocar el contenido visible de la página web (por ejemplo, nuestro párrafo).
+La siguiente etiqueta, <head>, contiene información adicional sobre el documento, que también debe colocarse en etiquetas. La más básica es la etiqueta <title>, que establece el título de la página mayormente visible en la barra de título del navegador. Después de <head> esta el elemento ```<body>```, y allí se debe colocar el contenido visible de la página web (por ejemplo, nuestro párrafo).
