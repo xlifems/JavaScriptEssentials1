@@ -90,3 +90,8 @@ Por ejemplo, en HTML, podemos describir una página que tiene un encabezado, dos
 En CSS, podemos definir qué fuente se usará en toda la página, qué color tendrá el fondo o si el cursor del mouse, cuando se mueve sobre la tabla, debe cambiar de forma.
 
 Entonces podemos tratar CSS como una especie de configuración de la capa visual de la página. Así, la mayoría de las veces el sitio web se construirá sobre la base de un archivo HTML (es decir, una descripción de la estructura), código JavaScript que nos permite agregar, por ejemplo, algunos mecanismos de interacción y un archivo CSS (que describe la presentación de la página). Sin embargo, lo importante es que no habrá página sin un archivo HTML, pero podemos crear fácilmente una página sin usar archivos CSS. La descripción de CSS en sí está fuera del alcance del curso actual y la mencionamos solo por orden.
+
+# ¿Cómo podemos ejecutar nuestra código JavaScript?
+Comencemos con un ejemplo simple, donde el navegador obtiene una página simple (quizás incluso vacía) de https://test.org. La dirección es ficticia para este ejemplo, así que no intentes ingresarla. Mira la figura de abajo.
+
+![Captura de pantalla 2023-08-01 214747](https://github.com/xlifems/JavaScriptEssentials1/assets/19802299/4f5755b9-4377-4dce-89e4-b99fc98ca898)
