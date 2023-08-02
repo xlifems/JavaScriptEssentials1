@@ -94,7 +94,7 @@ Entonces podemos tratar CSS como una especie de configuración de la capa visual
 # ¿Cómo podemos ejecutar nuestra código JavaScript?
 Comencemos con un ejemplo simple, donde el navegador obtiene una página simple (quizás incluso vacía) de https://test.org. La dirección es ficticia para este ejemplo, así que no intentes ingresarla. Mira la figura de abajo.
 
-![Captura de pantalla 2023-08-01 214747](/assets/Captura de pantalla 2023-08-01 214747.png)
+![Captura de pantalla 2023-08-01 214747](https://github.com/xlifems/JavaScriptEssentials1/blob/main/assets/Captura%20de%20pantalla%202023-08-01%20214747.png)
 
 Empecemos por el lado derecho de la figura. El usuario ejecuta un navegador web en su computadora (por ejemplo, Chrome). Usando el atajo de teclado apropiado, se activan las herramientas de desarrollo (ver el capítulo anterior) para poder usar la consola. Recuerda que estas herramientas no son necesarias para el uso normal del navegador y, por lo tanto, están ocultas por defecto. Luego, el usuario escribe https://test.org (la URL de nuestro sitio falso) en la barra de direcciones.
 
