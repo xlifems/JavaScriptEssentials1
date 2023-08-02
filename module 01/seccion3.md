@@ -95,3 +95,10 @@ Entonces podemos tratar CSS como una especie de configuración de la capa visual
 Comencemos con un ejemplo simple, donde el navegador obtiene una página simple (quizás incluso vacía) de https://test.org. La dirección es ficticia para este ejemplo, así que no intentes ingresarla. Mira la figura de abajo.
 
 ![Captura de pantalla 2023-08-01 214747](https://github.com/xlifems/JavaScriptEssentials1/assets/19802299/4f5755b9-4377-4dce-89e4-b99fc98ca898)
+
+Empecemos por el lado derecho de la figura. El usuario ejecuta un navegador web en su computadora (por ejemplo, Chrome). Usando el atajo de teclado apropiado, se activan las herramientas de desarrollo (ver el capítulo anterior) para poder usar la consola. Recuerda que estas herramientas no son necesarias para el uso normal del navegador y, por lo tanto, están ocultas por defecto. Luego, el usuario escribe https://test.org (la URL de nuestro sitio falso) en la barra de direcciones.
+
+En el servidor remoto (lado izquierdo del dibujo), asociado a la dirección https://test.org, se esta ejecutando un servidor web que, tras recibir una solicitud de nuestro usuario, preparará una respuesta para ello. En el caso más simple, la respuesta solo contendrá un archivo html, que se puede almacenar en el mismo servidor. El archivo html (en este ejemplo, index.html) se devuelve al usuario y el navegador lo procesa. Si se define algún contenido (por ejemplo, un párrafo con texto), se mostrará en la ventana del navegador.
+
+Sin embargo, nos interesa más el hecho de que el archivo index.html contiene las etiquetas ```<script>``` y ```</script>```, con una pieza de código JavaScript entre ellas. ¿Lo reconoces? Obviamente, esto es un intento de mostrar nuestro ```"¡Hola, mundo!"``` en la consola al cargar la página, se debe ejecutar el código colocado dentro de las etiquetas ```<script>``` y, si las herramientas para desarrolladores están habilitadas y el panel de la consola está visible, la consola mostrará ```"¡Hola, Mundo!"```.
+
