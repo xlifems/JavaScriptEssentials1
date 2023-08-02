@@ -78,8 +78,9 @@ El código JavaScript que ejecutará el navegador en la página debe adjuntarse 
 
 HTML es leído por el navegador línea por línea, y las etiquetas se ejecutan justo en el momento en que el navegador analiza la etiqueta ```<script>``` (analizar en lenguajes de programación significa un análisis formal del código por parte de una máquina para comprender su estructura). Generalmente las etiquetas <script> se insertan en el encabezado de la página entre las etiquetas ```<head>``` y ```</head>```, y podemos insertar muchos de ellos en un archivo, por ejemplo, para incluir código JavaScript de diferentes archivos. Este comportamiento se puede cambiar para scripts externos señalados por el atributo ```"src"``` usando los atributos ```"defer"``` o ```"async"```.
 
-    **defer**: significa que el script debe ejecutarse después de cargar toda la página.
-    **async**: significa que el script se ejecutará inmediatamente, pero en paralelo al análisis del resto de la página.
+**defer**: significa que el script debe ejecutarse después de cargar toda la página.
+
+**async**: significa que el script se ejecutará inmediatamente, pero en paralelo al análisis del resto de la página.
 
 # ... y un poco acerca de CSS
 CSS, o Cascading Style Sheets, es un lenguaje utilizado junto con HTML para describir la apariencia de una página y sus elementos. En pocas palabras, HTML describe la estructura de un documento, mientras que CSS describe su presentación.
